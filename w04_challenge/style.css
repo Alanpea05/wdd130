@@ -1,0 +1,47 @@
+*{
+    background: rgb(249, 160, 212);
+    color: white;
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+}
+#title{
+    display: inline;
+}
+#title:hover{
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#lista{
+    margin-left: 240px;
+}
+
+ul{
+list-style: none;
+text-align: center;
+font-size: 14px;
+}
+
+li{
+    color: black;
+    font-weight: bold;
+    text-align:justify;
+    padding-top: 13px;
+}
+
+#quote{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#final p{
+    color: black;
+    margin: 0 auto;
+}

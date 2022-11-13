@@ -235,11 +235,43 @@ footer p {
 
 /*----------------------------- rivers.html ---------------------------- */
 
-#carrousel{
+#header_sec {
     display: grid;
-    background: #671d28;
+    grid-template-columns: 150px auto;
+    background-color: #8B2635;
+}
+
+
+#header_sec nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#header_sec #logo_link{
+    justify-self: center;
+    align-self: center;
+}
+
+#header_sec nav a {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+#header_sec nav a:hover {
+    background-color: #3d3f3f1e;
+}
+
+#carrousel{
+    display: grid;  
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    margin-top: 20px ;
 }
 
 .carrousel_img-box{
@@ -263,8 +295,65 @@ footer p {
     background: #934a06;
 }
 
+#content_boxes{
+    height: 800px;
+    display: grid;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+}
 
+.content_box-one{
+    grid-column: 2/6;
+    grid-row: 2/5;
+    
+}
 
+.content_box-two{
+    grid-column: 2/6;
+    grid-row: 7/10;
+    
+   }
+
+.content_box-three{
+    grid-column: 7/11;
+    grid-row: 2/5;
+   
+   }
+
+.content_box-four{
+    grid-column: 7/11;
+    grid-row: 7/10;
+    
+   }
+
+   .content_box{
+    display: grid;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    grid-template-columns: 40% 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 0.5%;
+    background: #aa5c12c1;
+   }
+
+   .content_box:hover{
+    background:#aa5c12e4;
+   }
+
+   .content_box-img{
+    border-right: 1px solid rgb(0, 0, 0);
+    height: 215px;
+    width: 350px ;
+   }
+
+   .content_box h1{
+    text-align: center;
+   }
+
+   .content_box p{
+    text-align: justify;
+    font-size: 25px;
+    margin: 5px 40px;
+   }
 
 
 @media screen and (max-width: 900px) {

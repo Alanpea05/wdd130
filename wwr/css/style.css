@@ -289,11 +289,18 @@ footer p {
 }
 
 .carrousel_button{
-   
-    display: inline-block;
-    color: black;
-    background: #934a06;
+    margin: -250px auto;
+    text-align: center;
+    width: 220px;
+    height: 70px;
+    color: rgba(255, 255, 255, 0.699);
+    background: #474954c4;
+    border-radius: 2%;
+    font-size: 45px;
+    border: 1px solid black;
+    cursor: pointer;
 }
+
 
 #content_boxes{
     height: 800px;
@@ -351,7 +358,7 @@ footer p {
 
    .content_box p{
     text-align: justify;
-    font-size: 25px;
+    font-size: 30px;
     margin: 5px 40px;
    }
 

@@ -192,7 +192,7 @@ main section {
     padding-bottom: 15px;
 }
 
-footer{
+#footer_index{
     background-color: #671d28;
     color: #fcfbfb;
     padding: 25px 50px;
@@ -213,12 +213,12 @@ main section img {
     box-sizing: border-box;
 }
 
-footer a{
+#footer_index a{
     text-decoration: none;
     color: #fcfbfb;
 }
 
-footer p {
+#footer_index p {
     font-size: 1em
 }    
 
@@ -361,6 +361,113 @@ footer p {
     font-size: 30px;
     margin: 5px 40px;
    }
+
+   #footer_dif {
+    background-color: #671d28;
+    color: #fcfbfb;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer_dif a{
+    text-decoration: none;
+    color: #fcfbfb;
+}
+
+#footer_dif p {
+    font-size: 1em
+}    
+
+
+   /* -------------------------- Contact us ----------------------- */
+
+   #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 180px 400px;
+    width: 800px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 500px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 10em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 4em;
+    height: 60px;
+    width: 140px;
+    font-size: 25px;
+  }
 
 
 @media screen and (max-width: 900px) {

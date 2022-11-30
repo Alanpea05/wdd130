@@ -469,7 +469,12 @@ form {
     font-size: 25px;
   }
 
+ /* -------------- End contact us -------------------------------- */
 
+ 
+
+
+/* ------------- MEDIA QUERYS ------------- */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -515,3 +520,4 @@ form {
         width: 1600px;
     }
 }
+

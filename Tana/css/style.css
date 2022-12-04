@@ -150,15 +150,52 @@ footer a img{
 
 
 /* ------------------- Catalogue --------------------------------- */
+
+
+
+main{
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr;
+}
   
 #left_menu{
     height: 0px;
     padding: 0px;
 }
+/* ------------------------------- Left Menu --------------------- */
+#left_menu {
+  margin-top:150px;
+  position: fixed;
+}
+
+.left_icon-bar {
+  width: 90px;
+  background-color: rgb(85, 85, 85);
+}
+
+.left_icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 36px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  margin-bottom: 10px;
+}
+
+.left_icon-bar a:hover {
+  background-color: rgba(0, 0, 0, 0.454);
+}
+
+.active {
+  background-color: #04AA6D;
+}
+ /* -------------------- End Left menu ----------------- */
 
 .main {
-    margin-top: -800px;
-    margin-left: 12%;
+  grid-row: 1/2;
+  grid-column: 2/3;
     max-width: 2000px;
   }
 

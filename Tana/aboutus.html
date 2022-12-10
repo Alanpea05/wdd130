@@ -21,9 +21,9 @@
 
     </header>
 
-    <main>
+    <main id="main_aboutus">
 
-        <section>
+        <div id="section_aboutus">
             <div id="text">
                 <p> We are a company founded from an idea among friends to learn 
                     about the wonderful culture of the state of Chiapas, its colors
@@ -36,8 +36,29 @@
                 <img src="images/logo2.png" alt="">
             </div>
 
-            <a href="" id="button_us"> More </a>
-        </section>
+            <form action="/action_page.php" id="aboutus_form">
+                    <div class="container_aboutus">
+                      <h2>Subscribe to our Newsletter</h2>
+                      <p>Find out about all the news and discounts through your email so you don't miss any news!</p>
+                    </div>
+                  
+                    <div class="container_aboutus" style="background-color:white">
+                      <input type="text" placeholder="Name" name="name" required>
+                      <input type="text" placeholder="Email address" name="mail" required>
+                      <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                      </label>
+                    </div>
+                  
+                    <div class="container_aboutus">
+                      <input type="submit" value="Subscribe">
+                    </div>
+                 
+
+
+            </form>
+
+        </div>
 
     </main>
 
